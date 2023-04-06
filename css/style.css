@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Bad+Script&family=Caveat:wght@400;500;700&family=Comfortaa:wght@400;700&family=Comforter&family=Kelly+Slab&family=Lobster&family=Marck+Script&family=Montserrat+Alternates:wght@400;500;700;900&family=Neucha&family=Oi&family=Oswald:wght@400;500;700&family=PT+Sans+Narrow:wght@400;700&family=Pacifico&family=Pattaya&family=Press+Start+2P&family=Roboto+Mono:wght@400;500;700&family=Rubik+80s+Fade&family=Rubik+Beastly&family=Rubik+Bubbles&family=Rubik+Burned&family=Rubik+Dirt&family=Rubik+Distressed&family=Rubik+Gemstones&family=Rubik+Glitch&family=Rubik+Iso&family=Rubik+Marker+Hatch&family=Rubik+Maze&family=Rubik+Microbe&family=Rubik+Mono+One&family=Rubik+Moonrocks&family=Rubik+Puddles&family=Rubik+Spray+Paint&family=Rubik+Storm&family=Rubik+Vinyl&family=Russo+One&family=Shantell+Sans:wght@400;500;700&family=Sofia+Sans+Extra+Condensed:wght@400;500;700;900&family=Stalinist+One&display=swap');
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body{
+	font-family: "CircularStd";
+}
+
+#yellow {
+	color: lime;
+	font-family: "Pacifico";
+}
+
+.red {
+	color:red;
+	font-family: "Sofia Sans Extra Condensed";
+}
+
+.dog,
+.people {
+	color: purple;
+	font-family: "Lobster";
+}
+
+.tap .pink {
+	color: palevioletred;
+	font-family: "Rubik Burned";
+}
+
+.orange1 ~ p {
+	color: yellow;
+	font-family: "Oswald";
+}
+
+.green + p {
+	color: blue;
+	font-family: "Caveat";
+}
+
+.orangered > p {
+	color: rgb(255, 153, 0);
+	font-family: "Marck Script";
+}
+
+p.green {
+	color: green;
+	font-family: "PT Sans Narrow";
+}
+
+* .lesson  {
+	color: rgb(0, 255, 170);
+	font-family: "Press Start 2P";
+}
+
+* {
+	color: lime;
+	font-family: "Rubik Bubbles";
+}
+
+li {
+	color: lime;
+	font-family: "Neucha";
+}
